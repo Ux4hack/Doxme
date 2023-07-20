@@ -1,0 +1,115 @@
+#!/bin/bash
+#
+#
+# =================[Doxme]===================
+# Versión: 1.0
+# Open Source - Software Libre
+# O.S: General Linux
+# License: General Public License
+# Coded by: Ux4hack
+# Time: 18/07/2023 - 19/07/2023
+#
+
+
+bold="\e[1m"
+underline="\e[4m"
+dim="\e[2m"
+blink="\e[5m"
+red="\e[31m"
+green="\e[32m"
+orange="\e[33m"
+blue="\e[34m"
+purple="\e[35m"
+B="\e[94m"
+white="\e[97m"
+default="\e[39m"
+G="\e[0;32m\033[1m"
+R="\e[1;31m"
+RED="\e[101m"
+green='\e[32m'
+W="\033[0m"
+GR='\033[90m'
+BL="\e[44m"
+WI="\e[107m"
+B="\e[0;34m\033[1m"
+
+function print_color {
+    echo -e "$1$2$normal"
+}
+
+opc=0
+
+while [ $opc -ne 14 ] ; do
+    clear
+echo -e '\e[94m
+  ________
+  \______ \   _______  ___ _____   ____
+   |    |  \ /  _ \  \/  //     \_/ __ \
+   |    `   (  <_> >    <|  Y Y  \  ___/
+  /_______  /\____/__/\_ \__|_|  /\___  >
+          \/            \/     \/     \/'
+  echo -e "  	     ${W} ${B}${WI} .:: DOXME ::. ${W}"
+  echo -e "         ${GR} [ Paginas Para Doxing ]${W}"
+  echo -e "          ${GR}Desarrollador: ${green}@Ux4hack${W}"
+
+echo
+echo -e "${bold}${B}	           ╭─────────────╮"
+echo -e "${B}	  │${red}1${B}│───│${white} Reveal Name ${B}│"
+echo -e "${B}	        └─────────────╯${white}"
+echo -e "${B}	  │${red}2${B}│───│${white} Phone Infoga${B}│"
+echo -e "${B}	        └─────────────╯──╮"
+echo -e "${B}         │${red}3${B}│───│${white} Paginas Blancas${B}│"
+echo -e "${B}               └────────────────╯${white}"
+echo -e "${B}         │${red}4${B}│───│${white} BeenVerified${B}│"
+echo -e "${B}               └─────────────╯${white}"
+echo -e "${B}         │${red}5${B}│───│${white} DNI${B} │"
+echo -e "${B}               └─────╯─────────╮${white}"
+echo -e "${B}         │${red}6${B}│───│${white} CheckUsernames${B}│"
+echo -e "${B}               └───────────────╯${white}"
+echo -e "${B}         │${red}7${B}│───│${white} BeenVerifield${B} │"
+echo -e "${B}               └───────────────╯${white}"
+echo -e "${B}         │${red}8${B}│───│${white} Deteas${B} │"
+echo -e "${B}               └────────╯${white}"
+echo -e "${B}         │${red}9${B}│───│${white} Tineye${B} │"
+echo -e "${B}               └────────╯──╮${white}"
+echo -e "${B}         │${red}10${B}│──│${white} NumVerify${B} │"
+echo -e "${B}               └───────────╯${white}"
+echo -e "${B}         │${red}11${B}│──│${white} Curp${B} │"
+echo -e "${B}               └──────╯────╮${white}"
+echo -e "${B}         │${red}12${B}│──│${white} IpTracker${B} │"
+echo -e "${B}               └───────────╯${white}"
+echo -e "${B}         │${red}13${B}│──│${white} IpLoguer${B} │"
+echo -e "${B}               └──────────╯${white}"
+
+echo -e "${B}         │${red}14${B}│───│${red} Salir${B} │"
+echo -e "${B}                └───────╯${white}"
+
+    echo -ne "${B}[${red}~${B}] ${bold}${white}Doxme ${green}>${white} "
+	read opc
+
+    case $opc in
+        1) xdg-open https://www.revealname.com/ ;;
+	2) xdg-open https://demo.phoneinfoga.crvx.fr/ ;;
+	3) xdg-open http://www.paginasblancas.pe/ ;;
+        4) xdg-open https://www.beenverified.com/ ;;
+        5) xdg-open https://www.ancestry.mx/search/ ;;
+        6) xdg-open http://checkusernames.com/ ;;
+        7) xdg-open https://www.beenverified.com/ ;;
+        8) xdg-open https://m.dateas.com/es ;;
+        9) xdg-open https://tineye.com/ ;;
+        10) xdg-open https://numverify.com/ ;;
+        11) xdg-open https://www.buholegal.com/consultacurp/ ;;
+        12) xdg-open https://db-ip.com/ ;;
+	13) xdg-open https://grabify.link/ ;;
+
+        14) break ;;
+        *) echo -e "${B} ╭───────╮"
+echo -e "${B} │${red} ERROR${B} │ ${white}Opcion no válida..."
+echo -e "${B} └───────╯${white}"
+	;;
+   esac
+   sleep 1
+   bash Doxme
+done
+
+# I'm Ux4hack
