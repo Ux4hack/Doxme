@@ -7,10 +7,11 @@
 <img src="https://img.shields.io/badge/For-Linux-&=colorFF0000?style=flat-square">
 </p>
 
-<p align="left">
-<a href="#"><img title="chat" src="https://img.shields.io/badge/Telegram-CHAT-B60909?logo=telegram&logoColor=white&style=plastic)](https://t.me/Ux4hack)"></a>
-<a href="#"><img title="GitHub" src="https://img.shields.io/badge/GitHub-Ux4hack-B60909?logo=github&logoColor=white&style=plastic)](https://github.com/Ux4hack)"></a>
-</p>
+<p align="center">
+<a href="https://www.facebook.com/Er4NotFound?mibextid=ZbWKwL)"><img title="Facebook" src="https://img.shields.io/badge/Facebook-black?style=for-the-badge&logo=facebook"></a>
+<a href="https://t.me/Ux4hack"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
+<a href="https://instagram.com/erasmogalvez_404?igshid=NGExMmI2YTkyZg=="><img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-black?style=for-the-badge&logo=instagram"></a>
+
 
 # Doxme
 
